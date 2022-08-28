@@ -1,6 +1,18 @@
 {
     "make_a_notes": "ჩანაწერის დამატება",
     "list_of_entries": "ჩანაწერების სია",
-    "office_manager_app":"ოფის მენეჯერის აპლიკაცია"
+    "office_manager_app":"ოფის მენეჯერის აპლიკაცია",
+    "employee_info":"თანამშრომლის ინფორმაცია",
+    "feature_of_the_laptop":"ლეპტოპის მახასიათებლები",
+
+    "first_name":"სახელი",
+    "last_name":"გვარი",
+    "team": "გუნდი",
+    "position": "პოზიცია",
+    "email":"მეილი",
+    "mobile_number":"ტელეფონის ნომერი",
+    "next": "შემდეგი"
+
+
 
 }

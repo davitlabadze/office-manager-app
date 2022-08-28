@@ -1,5 +1,17 @@
 {
     "make_a_notes": "Make a Notes",
     "list_of_entries": "List of Entries",
-    "office_manager_app":"Office Manager App"
+    "office_manager_app":"Office Manager App",
+    "employee_info":"Employee Info",
+    "feature_of_the_laptop":"Feature of The Laptop",
+
+    "first_name":"First Name",
+    "last_name":"Last Name",
+    "team": "Team",
+    "position": "Position",
+    "email":"Email",
+    "mobile_number": "Mobile Number",
+    "next": "Next"
+
+
 }
