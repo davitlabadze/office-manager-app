@@ -33,7 +33,7 @@ const Complete = () => {
                   </button>
                 </Link>
                 <Link to='/'>
-                  <p className='mt-2 text-blue-400'>მთავარი</p>
+                  <p className='mt-2 text-blue-400'>{t('home_page')} </p>
                 </Link>
               </div>
             </div>
