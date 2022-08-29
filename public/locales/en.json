@@ -11,7 +11,23 @@
     "position": "Position",
     "email":"Email",
     "mobile_number": "Mobile Number",
-    "next": "Next"
+    "next": "Next",
+    "save": "Save",
+    "drop_or_upload": "Drop or Upload",
+    "laptop_image": "Laptop Image",
+    "laptop_name":"Laptop Name",
+    "laptop_brand":"Laptop Brand",
+    "cpu":"CPU",
+    "cpu_core": "Number of processor cores",
+    "cpu_flow": "Processor flow",
+    "laptop_ram": "Laptop RAM(GB)",
+    "memory_type": "Memory type",
+    "date_of_purchase":"Date of purchase",
+    "laptop_price":"Laptop Price",
+    "back":"Back"
+
+
+
 
 
 }

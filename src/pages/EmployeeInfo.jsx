@@ -5,19 +5,19 @@ import Select from '../components/Select';
 const EmployeeInfo = () => {
   const { t } = useTranslation();
 
-  const team = [
-    { id: 1, position: 'Develompment' },
-    { id: 2, position: 'HR' },
-    { id: 3, position: 'Sales' },
-    { id: 4, position: 'Design' },
-    { id: 5, position: 'Marketing' },
+  const TEAM = [
+    { id: 1, name: 'Developer' },
+    { id: 2, name: 'HR' },
+    { id: 3, name: 'Sales' },
+    { id: 4, name: 'Design' },
+    { id: 5, name: 'Marketing' },
   ];
-  const position = [
-    { id: 1, position: 'Front-end developer' },
-    { id: 2, position: 'Junior HR' },
-    { id: 3, position: 'Junior Sales' },
-    { id: 4, position: 'UX/UI Design' },
-    { id: 5, position: 'Junior marketer' },
+  const POSITION = [
+    { id: 1, name: 'Front-end developer' },
+    { id: 2, name: 'Junior HR' },
+    { id: 3, name: 'Junior Sales' },
+    { id: 4, name: 'UX/UI Design' },
+    { id: 5, name: 'Junior marketer' },
   ];
 
   return (
@@ -48,8 +48,8 @@ const EmployeeInfo = () => {
           </div>
         </div>
         <div>
-          <Select data={team} title='team' />
-          <Select data={position} title='position' />
+          <Select data={TEAM} title='team' />
+          <Select data={POSITION} title='position' />
         </div>
         <div className='mt-12'>
           <label className='block text-left' htmlFor='email'>
