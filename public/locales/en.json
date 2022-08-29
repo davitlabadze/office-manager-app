@@ -24,7 +24,8 @@
     "memory_type": "Memory type",
     "date_of_purchase":"Date of purchase",
     "laptop_price":"Laptop Price",
-    "back":"Back"
+    "back":"Back",
+    "record_added": "Record Added"
 
 
 

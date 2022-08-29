@@ -5,6 +5,7 @@ import Select from '../components/Select';
 import LongLine from '../assets/longLine.svg';
 import GEL from '../assets/Sign_of_Georgian_Lari.svg.png';
 import { Link } from 'react-router-dom';
+import Complete from '../modal/Complete';
 const Laptop = () => {
   const { t } = useTranslation();
 
@@ -181,6 +182,7 @@ const Laptop = () => {
           <ActionButton text='save' />
         </div>
       </form>
+      <Complete />
     </div>
   );
 };
