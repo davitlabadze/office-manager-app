@@ -4,6 +4,8 @@ import EmployeeInfo from './pages/EmployeeInfo';
 import Layout from './layout/Layout';
 import Laptop from './pages/Laptop';
 import ListOfEntries from './pages/ListOfEntries';
+import ListLayout from './layout/ListLayout';
+import LaptopInfo from './pages/LaptopInfo';
 
 function App() {
   return (
@@ -13,7 +15,10 @@ function App() {
         <Route path='employee-info' element={<EmployeeInfo />} />
         <Route path='feature-of-the-laptop' element={<Laptop />} />
       </Route>
-      <Route path='/list-of-entries' element={<ListOfEntries />} />
+      <Route element={<ListLayout />}>
+        <Route path='/list-of-entries' element={<ListOfEntries />} />
+        <Route path='/laptop-info:id' element={<LaptopInfo />} />
+      </Route>
     </Routes>
   );
 }

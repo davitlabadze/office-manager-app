@@ -1,15 +1,11 @@
-import { Link, Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import NavLinkComponent from '../components/NavLinkComponent';
-import backButtonImage from '../assets/backButton.svg';
+import BackButton from '../components/BackButton';
 const Layout = () => {
   return (
     <div className='h-screen bg-gray-600 '>
       <div className='h-auto bg-gray-600'>
-        <Link to={'/'}>
-          <button className='float-left px-12 py-6'>
-            <img src={backButtonImage} alt='' />
-          </button>
-        </Link>
+        <BackButton />
         <div className='container max-w-screen-lg mx-auto text-center'>
           <nav className='p-4'>
             <ul className='flex justify-center space-x-12 text-center'>
