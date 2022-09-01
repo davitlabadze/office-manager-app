@@ -1,109 +1,11 @@
 import { useTranslation } from 'react-i18next';
 import ActionButton from '../components/ActionButton';
 import Select from '../components/Select';
+import TEAM from '../database/teams.json';
+import POSITION from '../database/positions.json';
 
 const EmployeeInfo = () => {
   const { t } = useTranslation();
-
-  const TEAM = [
-    { id: 1, name: 'Developer' },
-    { id: 2, name: 'HR' },
-    { id: 3, name: 'Sales' },
-    { id: 4, name: 'Design' },
-    { id: 5, name: 'Marketing' },
-  ];
-  const POSITION = [
-    {
-      id: 1,
-      name: 'ინტერნი',
-      team_id: 1,
-    },
-    {
-      id: 2,
-      name: 'ჯუნიორ დეველოპერი',
-      team_id: 1,
-    },
-    {
-      id: 3,
-      name: 'მიდლ დეველოპერი',
-      team_id: 1,
-    },
-    {
-      id: 4,
-      name: 'სენიორ დეველოპერი',
-      team_id: 1,
-    },
-    {
-      id: 5,
-      name: 'ლიდ დეველოპერი',
-      team_id: 1,
-    },
-    {
-      id: 6,
-      name: 'HR სპეციალისტი',
-      team_id: 2,
-    },
-    {
-      id: 7,
-      name: 'HR პროექტ მენეჯერი',
-      team_id: 2,
-    },
-    {
-      id: 8,
-      name: 'HR ბიზნეს პარტნიორი',
-      team_id: 2,
-    },
-    {
-      id: 9,
-      name: 'ჯუნიორ ბიზნეს დეველოპერი',
-      team_id: 3,
-    },
-    {
-      id: 10,
-      name: 'ბიზნეს დეველოპერი',
-      team_id: 3,
-    },
-    {
-      id: 11,
-      name: 'სენიორ ბიზნეს დეველოპერი',
-      team_id: 3,
-    },
-    {
-      id: 12,
-      name: 'ჯუნიორ UI/UX დიზაინერი',
-      team_id: 4,
-    },
-    {
-      id: 13,
-      name: 'UI/UX დიზაინერი',
-      team_id: 4,
-    },
-    {
-      id: 14,
-      name: 'სენიორ UI/UX დიზაინერი',
-      team_id: 4,
-    },
-    {
-      id: 15,
-      name: 'ლიდ UI/UX დიზაინერი',
-      team_id: 4,
-    },
-    {
-      id: 16,
-      name: 'ბლოგერი',
-      team_id: 5,
-    },
-    {
-      id: 17,
-      name: 'growth მარკეტინგის სპეციალისტი',
-      team_id: 5,
-    },
-    {
-      id: 18,
-      name: 'მარკეტინგის თიმ ლიდი',
-      team_id: 5,
-    },
-  ];
 
   return (
     <div className='flex justify-center h-full p-12 mt-12 space-x-12 bg-white rounded-lg shadow-md'>

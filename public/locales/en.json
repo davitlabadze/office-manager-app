@@ -26,7 +26,12 @@
     "laptop_price":"Laptop Price",
     "back":"Back",
     "record_added": "Record Added",
-    "home_page": "Home Page" 
+    "home_page": "Home Page",
+    "name": "Full Name",
+    "brand": "Brand",
+    "see_more": "See More"
+
+    
 
 
 

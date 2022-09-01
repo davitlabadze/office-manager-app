@@ -6,24 +6,10 @@ import LongLine from '../assets/longLine.svg';
 import GEL from '../assets/Sign_of_Georgian_Lari.svg.png';
 import { Link } from 'react-router-dom';
 import Complete from '../modal/Complete';
+import LAPTOPBRAND from '../database/brands.json';
+import CPU from '../database/cpus.json';
 const Laptop = () => {
   const { t } = useTranslation();
-
-  const LAPTOPBRAND = [
-    { id: 1, name: 'HP' },
-    { id: 2, name: 'Dell' },
-    { id: 3, name: 'Microsoft' },
-    { id: 4, name: 'Apple' },
-    { id: 5, name: 'Lenovo' },
-    { id: 6, name: 'Acer' },
-  ];
-  const CPU = [
-    { id: 1, name: 'Intel Core i3' },
-    { id: 2, name: 'Intel Core i5' },
-    { id: 3, name: 'Intel Core i7' },
-    { id: 4, name: 'Intel Core i9' },
-    { id: 5, name: 'AMD Ryzen 3' },
-  ];
   return (
     <div className='flex justify-center h-full p-12 mt-12 space-x-12 bg-white rounded-lg shadow-md mb'>
       <form action=''>
