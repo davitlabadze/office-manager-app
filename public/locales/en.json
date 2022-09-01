@@ -33,7 +33,9 @@
     "see_more": "See More",
     "laptop_info" : "Laptop Information",
     "laptop_condition":"Laptop condition",
-    "purchase_date":"Purchase Date"
+    "purchase_date":"Purchase Date",
+    "new":"New",
+    "secondary": "Secondary"
 
 
 

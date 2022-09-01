@@ -33,7 +33,11 @@
     "see_more": "მეტის ნახვა",
     "laptop_info" : "ლეპტოპის ინფორმაცია",
     "laptop_condition":"ლეპტოპის მდგომარეობა",
-    "purchase_date":"შევსების დრო"
+    "purchase_date":"შევსების დრო",
+    "new":"ახალი",
+    "secondary": "მეორადი"
+    
+
 
 
 }

@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import ActionButton from '../components/ActionButton';
 import ImageUploader from '../assets/imageUploader.svg';
 import Select from '../components/Select';
 import LongLine from '../assets/longLine.svg';
@@ -8,11 +7,13 @@ import { Link } from 'react-router-dom';
 import Complete from '../modal/Complete';
 import LAPTOPBRAND from '../database/brands.json';
 import CPU from '../database/cpus.json';
+import { useState } from 'react';
 const Laptop = () => {
+  const [complete, setComplete] = useState(false);
   const { t } = useTranslation();
   return (
     <div className='flex justify-center h-full p-12 mt-12 space-x-12 bg-white rounded-lg shadow-md mb'>
-      <form action=''>
+      <div>
         <div className='flex items-center justify-center '>
           <label
             htmlFor='dropzone-file'
@@ -117,7 +118,7 @@ const Laptop = () => {
           </div>
         </div>
         <img src={LongLine} alt='' className='mt-12' />
-        {/* //this is last */}
+
         <div className='flex mt-12 space-x-12'>
           <div className='block '>
             <label className='block text-left' htmlFor='date_of_purchase'>
@@ -159,16 +160,45 @@ const Laptop = () => {
           </div>
         </div>
 
+        <div className='w-1/2 mt-12'>
+          <h1 className='text-left'>{t('laptop_condition')}</h1>
+          <div className='mt-5 text-left'>
+            <input type='radio' id='new' name='laptop_condition' value='new' />
+            <label className='py-12 ml-2' htmlFor='new'>
+              {t('new')}
+            </label>
+            <input
+              type='radio'
+              id='2'
+              name='laptop_condition'
+              value='hdd'
+              className='ml-2'
+            />
+            <label className='py-12 ml-2' htmlFor='secondary'>
+              {t('secondary')}
+            </label>
+          </div>
+        </div>
+
         <div className='flex justify-between mt-12 rounded-3xl'>
           <Link to='/make-note/employee-info'>
             <button className='mt-16 text-blue-500 hover:text-blue-600'>
               {t('back')}
             </button>
           </Link>
-          <ActionButton text='save' />
+
+          <div className='mt-12 text-right'>
+            <button
+              onClick={() => setComplete(true)}
+              type='text'
+              className='px-4 py-2 text-white bg-blue-500 rounded-md hover:bg-blue-600'
+            >
+              {t('save')}
+            </button>
+          </div>
         </div>
-      </form>
-      <Complete />
+      </div>
+      {complete ? <Complete /> : null}
     </div>
   );
 };
