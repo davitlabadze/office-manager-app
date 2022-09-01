@@ -17,7 +17,7 @@ function App() {
       </Route>
       <Route element={<ListLayout />}>
         <Route path='/list-of-entries' element={<ListOfEntries />} />
-        <Route path='/laptop-info:id' element={<LaptopInfo />} />
+        <Route path='/laptop-info/:id' element={<LaptopInfo />} />
       </Route>
     </Routes>
   );
