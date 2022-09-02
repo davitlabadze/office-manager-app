@@ -1,9 +1,17 @@
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import LISTOFENTRIES from '../database/laptops.json';
 
 const ListOfEntries = () => {
+  const [search, setSearch] = useState('');
   const { t } = useTranslation();
+  const SearchFilter = LISTOFENTRIES.filter((item) => {
+    return (
+      item.laptop.name.toLowerCase().includes(search.toLowerCase()) ||
+      item.user.name.toLowerCase().includes(search.toLowerCase())
+    );
+  });
 
   return (
     <div>
@@ -11,10 +19,11 @@ const ListOfEntries = () => {
       <input
         className='p-4 mt-2 border-2 border-blue-400 rounded-lg outline-none w-96'
         type='search'
-        placeholder='search'
+        onChange={(e) => setSearch(e.target.value)}
+        placeholder={t('search')}
       />
       <div className='grid justify-between grid-cols-2 gap-4 mt-12 '>
-        {LISTOFENTRIES.map((item, index) => (
+        {SearchFilter.map((item, index) => (
           <div
             className='grid grid-cols-3 col-span-1 gap-2 p-2 px-2 text-left border shadow-xl rounded-xl '
             key={index}

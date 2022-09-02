@@ -3,12 +3,12 @@
         {
           "laptop": {
             "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp-spacegray-select-202206?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1653493200207",
-            "name": "HP",
+            "name": "Mac",
             "id": 1
           },
           "user": {
-            "name": "John",
-            "surname": "Doe"
+            "name": "Alan",
+            "surname": "McKinney"
           }
         },
         {
@@ -18,8 +18,8 @@
             "id": 1
           },
           "user": {
-            "name": "John",
-            "surname": "Doe"
+            "name": "Bill",
+            "surname": "Rummel"
           }
         },
         {
@@ -29,8 +29,8 @@
             "id": 1
           },
           "user": {
-            "name": "John",
-            "surname": "Doe"
+            "name": "Jackie",
+            "surname": "Yocum"
           }
         },
         {
