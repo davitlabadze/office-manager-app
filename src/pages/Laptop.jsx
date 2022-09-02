@@ -12,9 +12,9 @@ const Laptop = () => {
   const [complete, setComplete] = useState(false);
   const { t } = useTranslation();
   return (
-    <div className='flex justify-center h-full p-12 mt-12 space-x-12 bg-white rounded-lg shadow-md mb'>
+    <div className='justify-center h-full p-12 mt-12 bg-white rounded-lg shadow-md lg:space-x-12 lg:flex'>
       <div>
-        <div className='flex items-center justify-center '>
+        <div className='items-center justify-center lg:flex '>
           <label
             htmlFor='dropzone-file'
             className='flex flex-col items-center justify-center w-full border-2 border-blue-400 border-dashed rounded-lg cursor-pointer h-96 bg-gray-50 hover:bg-gray-100'
@@ -31,8 +31,8 @@ const Laptop = () => {
             <input id='dropzone-file' type='file' className='hidden' />
           </label>
         </div>
-        <div className='flex mt-12 space-x-12 '>
-          <div className='w-1/2 '>
+        <div className='mt-12 lg:space-x-12 lg:flex '>
+          <div className='lg:w-1/2 '>
             <label className='block text-left' htmlFor='laptop_name'>
               {t('laptop_name')}
             </label>
@@ -43,16 +43,16 @@ const Laptop = () => {
               className='w-full p-4 mt-2 border border-blue-300 rounded-lg outline-blue-400'
             />
           </div>
-          <div className='w-1/2 '>
+          <div className='lg:w-1/2 '>
             <Select data={LAPTOPBRAND} title='laptop_brand' />
           </div>
         </div>
-        <img src={LongLine} alt='' className='mt-12' />
-        <div className='flex mt-12 space-x-12 '>
-          <div className='w-1/3'>
+        <img src={LongLine} alt='' className='lg:mt-12' />
+        <div className='lg:mt-12 lg:space-x-12 lg:flex '>
+          <div className='lg:w-1/3'>
             <Select data={CPU} title='cpu' />
           </div>
-          <div className='w-1/3'>
+          <div className='mt-4 lg:w-1/3 lg:mt-0'>
             <label className='block text-left' htmlFor='cpu_core'>
               {t('cpu_core')}
             </label>
@@ -63,7 +63,7 @@ const Laptop = () => {
               className='w-full p-4 mt-2 border border-blue-300 rounded-lg p outline-blue-400'
             />
           </div>
-          <div className='block w-1/3 '>
+          <div className='block mt-4 lg:w-1/3 lg:mt-0 '>
             <label className='block text-left' htmlFor='cpu_flow'>
               {t('cpu_flow')}
             </label>
@@ -75,8 +75,8 @@ const Laptop = () => {
             />
           </div>
         </div>
-        <div className='flex mt-12 space-x-12'>
-          <div className='w-1/2'>
+        <div className='mt-4 lg:mt-12 lg:space-x-12 lg:flex'>
+          <div className='lg:w-1/2'>
             <label className='block text-left' htmlFor='laptop_ram'>
               {t('laptop_ram')}
             </label>
@@ -87,9 +87,9 @@ const Laptop = () => {
               className='w-full p-4 mt-2 border border-blue-300 rounded-lg outline-blue-400'
             />
           </div>
-          <div className='w-1/2 '>
+          <div className='mt-4 lg:w-1/2 lg:mt-0'>
             <h1 className='text-left'>{t('memory_type')}</h1>
-            <div className='mt-5 text-left'>
+            <div className='mt-4 text-left lg:mt-5'>
               <input type='radio' id='1' name='memory_type' value='ssd' />
               <label className='py-12 ml-2' htmlFor='memory_type'>
                 SSD
@@ -119,7 +119,7 @@ const Laptop = () => {
         </div>
         <img src={LongLine} alt='' className='mt-12' />
 
-        <div className='flex mt-12 space-x-12'>
+        <div className='lg:flex lg:mt-12 lg:space-x-12'>
           <div className='block '>
             <label className='block text-left' htmlFor='date_of_purchase'>
               {t('date_of_purchase')}
@@ -127,11 +127,10 @@ const Laptop = () => {
             <input
               type='date'
               name='date_of_purchase'
-              placeholder='John'
-              className='p-4 mt-2 border border-blue-300 rounded-lg w-96 outline-blue-400'
+              className='w-full p-4 mt-2 border border-blue-300 rounded-lg lg:w-96 outline-blue-400'
             />
           </div>
-          <div className='block w-full'>
+          <div className='block w-full mt-4 lg:mt-0'>
             <label className='flex text-left' htmlFor='laptop_price'>
               {t('laptop_price')}
               <input
@@ -160,7 +159,7 @@ const Laptop = () => {
           </div>
         </div>
 
-        <div className='w-1/2 mt-12'>
+        <div className='mt-12 lg:w-1/2'>
           <h1 className='text-left'>{t('laptop_condition')}</h1>
           <div className='mt-5 text-left'>
             <input type='radio' id='new' name='laptop_condition' value='new' />
@@ -180,7 +179,7 @@ const Laptop = () => {
           </div>
         </div>
 
-        <div className='flex justify-between mt-12 rounded-3xl'>
+        <div className='flex justify-between lg:mt-12 rounded-3xl'>
           <Link to='/make-note/employee-info'>
             <button className='mt-16 text-blue-500 hover:text-blue-600'>
               {t('back')}

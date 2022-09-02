@@ -12,7 +12,7 @@ const Select = (props) => {
     selectOpen(!isShow);
   };
   return (
-    <div className='relative mt-9'>
+    <div className='relative mt-4 lg:mt-9'>
       <button
         onClick={show}
         type='button'
