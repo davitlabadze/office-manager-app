@@ -22,14 +22,14 @@ const ListOfEntries = () => {
         onChange={(e) => setSearch(e.target.value)}
         placeholder={t('search')}
       />
-      <div className='grid justify-between grid-cols-2 gap-4 mt-12 '>
+      <div className='grid justify-between grid-cols-1 gap-4 mt-12 lg:grid-cols-2 '>
         {SearchFilter.map((item, index) => (
           <div
             className='grid grid-cols-3 col-span-1 gap-2 p-2 px-2 text-left border shadow-xl rounded-xl '
             key={index}
           >
             <img
-              className='h-32 rounded-lg w-36'
+              className='h-32 ml-10 rounded-lg w-36'
               src={item.laptop.image}
               alt={item.laptop.name}
             />
