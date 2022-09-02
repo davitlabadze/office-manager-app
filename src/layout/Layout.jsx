@@ -3,8 +3,8 @@ import NavLinkComponent from '../components/NavLinkComponent';
 import BackButton from '../components/BackButton';
 const Layout = () => {
   return (
-    <div className='h-screen bg-gray-600 '>
-      <div className='h-auto bg-gray-600'>
+    <div className='h-screen bg-gray-200 '>
+      <div className='h-auto bg-gray-200'>
         <BackButton />
         <div className='container max-w-screen-lg mx-auto text-center'>
           <nav className='p-4'>
