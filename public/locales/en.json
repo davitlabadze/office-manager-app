@@ -36,7 +36,35 @@
     "purchase_date":"Purchase Date",
     "new":"New",
     "secondary": "Secondary",
-    "search":"Search by employee name or laptop brand"
+    "search":"Search by employee name or laptop brand",
+
+    "intern":"Intern",
+    "junior":"Junior Developer",
+    "middle":"Middle Developer",
+    "senior":"Senior Developer",
+    "lead":"Lead Developer",
+
+    "HR specialist":"HR specialist",
+    "HR Project Manager":"HR Project Manager",
+    "HR Business Partner":"HR Business Partner",
+
+    "Junior Business Developer":"Junior Business Developer",
+    "Business developer":"Business developer",
+    "Senior Business Developer":"Senior Business Developer",
+
+    "Junior UI/UX Designer":"Junior UI/UX Designer",
+    "UI/UX designer":"UI/UX designer",
+    "Senior UI/UX Designer":"Senior UI/UX Designer",
+    "Lead UI/UX Designer":"Lead UI/UX Designer",
+    "blogger":"Blogger",
+    "growth marketing specialist":"Growth marketing specialist",
+    "Marketing Team Lead":"Marketing Team Lead",
+
+    "developer":"Developer",
+    "sales":"Sales",
+    "design":"Design",
+    "marketing":"Marketing"
+
 
 
 

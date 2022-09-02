@@ -1,92 +1,92 @@
 [
   {
     "id": 1,
-    "name": "ინტერნი",
+    "name": "intern",
     "team_id": 1
   },
   {
     "id": 2,
-    "name": "ჯუნიორ დეველოპერი",
+    "name": "junior",
     "team_id": 1
   },
   {
     "id": 3,
-    "name": "მიდლ დეველოპერი",
+    "name": "middle",
     "team_id": 1
   },
   {
     "id": 4,
-    "name": "სენიორ დეველოპერი",
+    "name": "senior",
     "team_id": 1
   },
   {
     "id": 5,
-    "name": "ლიდ დეველოპერი",
+    "name": "lead",
     "team_id": 1
   },
   {
     "id": 6,
-    "name": "HR სპეციალისტი",
+    "name": "HR specialist",
     "team_id": 2
   },
   {
     "id": 7,
-    "name": "HR პროექტ მენეჯერი",
+    "name": "HR Project Manager",
     "team_id": 2
   },
   {
     "id": 8,
-    "name": "HR ბიზნეს პარტნიორი",
+    "name": "HR Business Partner",
     "team_id": 2
   },
   {
     "id": 9,
-    "name": "ჯუნიორ ბიზნეს დეველოპერი",
+    "name": "Junior Business Developer",
     "team_id": 3
   },
   {
     "id": 10,
-    "name": "ბიზნეს დეველოპერი",
+    "name": "Business developer",
     "team_id": 3
   },
   {
     "id": 11,
-    "name": "სენიორ ბიზნეს დეველოპერი",
+    "name": "Senior Business Developer",
     "team_id": 3
   },
   {
     "id": 12,
-    "name": "ჯუნიორ UI/UX დიზაინერი",
+    "name": "Junior UI/UX Designer",
     "team_id": 4
   },
   {
     "id": 13,
-    "name": "UI/UX დიზაინერი",
+    "name": "UI/UX designer",
     "team_id": 4
   },
   {
     "id": 14,
-    "name": "სენიორ UI/UX დიზაინერი",
+    "name": "Senior UI/UX Designer",
     "team_id": 4
   },
   {
     "id": 15,
-    "name": "ლიდ UI/UX დიზაინერი",
+    "name": "Lead UI/UX Designer",
     "team_id": 4
   },
   {
     "id": 16,
-    "name": "ბლოგერი",
+    "name": "blogger",
     "team_id": 5
   },
   {
     "id": 17,
-    "name": "growth მარკეტინგის სპეციალისტი",
+    "name": "growth marketing specialist",
     "team_id": 5
   },
   {
     "id": 18,
-    "name": "მარკეტინგის თიმ ლიდი",
+    "name": "Marketing Team Lead",
     "team_id": 5
   }
 ]

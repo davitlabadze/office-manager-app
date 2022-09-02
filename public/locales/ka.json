@@ -36,7 +36,43 @@
     "purchase_date":"შევსების დრო",
     "new":"ახალი",
     "secondary": "მეორადი",
-    "search":"მოძებნე თანამშრომელი ან ლეპტოპი"
+    "search":"მოძებნე თანამშრომელი ან ლეპტოპი",
+
+    "intern":"ინტერნი",
+    "junior":"ჯუნიორ დეველოპერი",
+    "middle":"მიდლ დეველოპერი",
+    "senior":"სენიორ დეველოპერი",
+    "lead":"ლიდ დეველოპერი",
+
+    "HR specialist":"HR სპეციალისტი",
+    "HR Project Manager":"HR პროექტ მენეჯერი",
+    "HR Business Partner":"HR ბიზნეს პარტნიორი",
+
+    "Junior Business Developer":"ჯუნიორ ბიზნეს დეველოპერი",
+    "Business developer":"ბიზნეს დეველოპერი",
+    "Senior Business Developer":"სენიორ ბიზნეს დეველოპერი",
+
+    "Junior UI/UX Designer":"ჯუნიორ UI/UX დიზაინერი",
+    "UI/UX designer":"UI/UX დიზაინერი",
+    "Senior UI/UX Designer":"სენიორ UI/UX დიზაინერი",
+    "Lead UI/UX Designer":"ლიდ UI/UX დიზაინერი",
+    "blogger":"ბლოგერი",
+    "growth marketing specialist":"growth მარკეტინგის სპეციალისტი",
+    "Marketing Team Lead":"მარკეტინგის თიმ ლიდი",
+
+    "developer":"დეველოპერი",
+    "sales":"გაყიდვები",
+    "design":"დიზაინი",
+    "marketing":"მარკეტინგი"
+
+    
+
+
+
+
+
+
+
     
 
 

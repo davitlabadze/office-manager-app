@@ -40,7 +40,7 @@ const Select = (props) => {
             relative py-2 pl-3 text-gray-900 cursor-default select-none pr-9 hover:bg-blue-200`}
             >
               <span className='block font-normal text-left truncate'>
-                {data.name}
+                {t(data.name)}
               </span>
             </li>
           ))}

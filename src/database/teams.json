@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "დეველოპერი"
+    "name": "developer"
   },
   {
     "id": 2,
@@ -9,14 +9,14 @@
   },
   {
     "id": 3,
-    "name": "გაყიდვები"
+    "name": "sales"
   },
   {
     "id": 4,
-    "name": "დიზაინი"
+    "name": "design"
   },
   {
     "id": 5,
-    "name": "მარკეტინგი"
+    "name": "marketing"
   }
 ]
