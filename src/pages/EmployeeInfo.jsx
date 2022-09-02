@@ -1,15 +1,15 @@
 import { useTranslation } from 'react-i18next';
-import ActionButton from '../components/ActionButton';
 import Select from '../components/Select';
 import TEAM from '../database/teams.json';
 import POSITION from '../database/positions.json';
+import { NavLink } from 'react-router-dom';
 
 const EmployeeInfo = () => {
   const { t } = useTranslation();
 
   return (
     <div className='flex justify-center h-full p-12 mt-12 space-x-12 bg-white rounded-lg shadow-md'>
-      <form action=''>
+      <div action=''>
         <div className='flex space-x-12'>
           <div className='block '>
             <label className='block text-left' htmlFor='first_name'>
@@ -62,9 +62,15 @@ const EmployeeInfo = () => {
           />
         </div>
         <div className='mt-12 text-right rounded-3xl'>
-          <ActionButton text='next' />
+          <div className='mt-12 text-right'>
+            <NavLink to='/make-note/feature-of-the-laptop'>
+              <button className='px-4 py-2 text-white bg-blue-500 rounded-md hover:bg-blue-600'>
+                {t('next')}
+              </button>
+            </NavLink>
+          </div>
         </div>
-      </form>
+      </div>
     </div>
   );
 };
