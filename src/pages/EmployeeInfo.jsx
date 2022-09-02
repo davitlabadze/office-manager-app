@@ -8,9 +8,9 @@ const EmployeeInfo = () => {
   const { t } = useTranslation();
 
   return (
-    <div className='flex justify-center h-full p-12 mt-12 space-x-12 bg-white rounded-lg shadow-md'>
+    <div className='justify-center h-full p-12 mt-12 space-x-12 bg-white rounded-lg shadow-md lg:flex'>
       <div action=''>
-        <div className='flex space-x-12'>
+        <div className='lg:space-x-12 lg:flex'>
           <div className='block '>
             <label className='block text-left' htmlFor='first_name'>
               {t('first_name')}
@@ -19,10 +19,10 @@ const EmployeeInfo = () => {
               type='text'
               name='first_name'
               placeholder='John'
-              className='p-4 mt-2 border border-blue-300 rounded-lg w-96 outline-blue-400'
+              className='w-full p-4 mt-2 border border-blue-300 rounded-lg lg:w-96 outline-blue-400'
             />
           </div>
-          <div className='block'>
+          <div className='block mt-2 lg:mt-0'>
             <label className='block text-left' htmlFor='last_name'>
               {t('last_name')}
             </label>
@@ -30,7 +30,7 @@ const EmployeeInfo = () => {
               type='text'
               name='last_name'
               placeholder='Doe'
-              className='p-4 mt-2 border border-blue-300 rounded-lg w-96 outline-blue-400'
+              className='w-full p-4 mt-2 border border-blue-300 rounded-lg lg:w-96 outline-blue-400'
             />
           </div>
         </div>
