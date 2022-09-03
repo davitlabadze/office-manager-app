@@ -14,12 +14,12 @@ const Layout = () => {
         <BackButton />
         <div className='container max-w-screen-lg mx-auto text-center'>
           <nav className='p-4'>
-            <ul className='flex justify-center mt-12 space-x-12 text-center'>
+            <ul className='mt-10 font-black text-center lg:flex lg:justify-center lg:space-x-12'>
               <li
                 className={
                   isActive === '/make-note/employee-info'
-                    ? 'items-center px-2 py-2 text-2xl font-medium underline'
-                    : 'items-center px-2 py-2 text-2xl font-medium '
+                    ? 'lg:items-center lg:px-2 lg:py-2 lg:text-2xl lg:font-medium lg:underline -mb-7'
+                    : 'lg:items-center lg:px-2 lg:py-2 lg:text-2xl lg:font-medium lg:visible invisible'
                 }
               >
                 {t('employee_info')}
@@ -27,8 +27,8 @@ const Layout = () => {
               <li
                 className={
                   isActive === '/make-note/feature-of-the-laptop'
-                    ? 'items-center px-2 py-2 text-2xl font-medium underline'
-                    : 'items-center px-2 py-2 text-2xl font-medium'
+                    ? 'lg:items-center lg:px-2 lg:py-2 lg:text-2xl lg:font-medium lg:underline lg:mt-0 -mt-7'
+                    : 'lg:items-center lg:px-2 lg:py-2 lg:text-2xl lg:font-medium lg:visible invisible'
                 }
               >
                 {t('feature_of_the_laptop')}
